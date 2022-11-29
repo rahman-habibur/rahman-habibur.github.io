@@ -1,0 +1,68 @@
+
+#loading{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #149ddd;
+}
+
+.waves{
+    width: 6px;
+    height: 100px;
+    background: linear-gradient(45deg, cyan 0 50%, white 50% 100%);
+    margin: 10px;
+    animation: waves 1s linear infinite;
+    border-radius: 20px;
+
+}
+
+.waves:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+.waves:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+.waves:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+.waves:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+.waves:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+.waves:nth-child(7){
+    animation-delay: 0.6s;
+}
+
+.waves:nth-child(8){
+    animation-delay: 0.7s;
+}
+
+.waves:nth-child(9){
+    animation-delay: 0.8s;
+}
+
+.waves:nth-child(10){
+    animation-delay: 0.9s;
+}
+
+@keyframes waves {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
